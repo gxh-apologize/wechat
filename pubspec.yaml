@@ -1,3 +1,5 @@
+
+#应用的名字和描述
 name: wechat
 description: A new Flutter application.
 
@@ -70,3 +72,18 @@ flutter:
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.io/custom-fonts/#from-packages
+
+  assets:
+
+    # 注意空格，否则报错
+    - images/loading.jpg
+
+    # 底部导航资源
+    - images/contact_list_normal.png
+    - images/contact_list_pressed.png
+    - images/find_normal.png
+    - images/find_pressed.png
+    - images/weixin_normal.png
+    - images/weixin_pressed.png
+    - images/profile_normal.png
+    - images/profile_pressed.png
